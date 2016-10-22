@@ -81,18 +81,24 @@
                             </p>
                         </div>
                         <div class="price">$ 200</div>
-                        <div class="size">
-                            <p class="size__size">Size</p>
-                            <input type="radio" name="size" id="size7"><label for="size7">7</label>
-                            <input type="radio" name="size" id="size8"><label for="size8">8</label>
-                            <input type="radio" name="size" id="size9"><label for="size9">9</label>
-                            <input type="radio" name="size" id="size10"><label for="size10">10</label>
-                            <input type="radio" name="size" id="size11"><label for="size11">11</label>
-                        </div>
-                        <div class="CartAndWish cap">
-                            <div class="cart">add to cart</div>
-                            <div class="wish">wishlist</div>
-                        </div>
+                        <form class="info__form">
+                            <div class="info__size">
+                                <p class="size__name">Size</p>
+                                <input type="radio" name="size" id="size7" value="7"><label for="size7">7</label>
+                                <input type="radio" name="size" id="size8" value="8"><label for="size8">8</label>
+                                <input type="radio" name="size" id="size9" value="9"><label for="size9">9</label>
+                                <input type="radio" name="size" id="size10" value="10"><label for="size10">10</label>
+                                <input type="radio" name="size" id="size11" value="11"><label for="size11">11</label>
+                            </div>
+                            <div class="info__btns">
+                                <div class="info__cart">
+                                    <button type="submit" name="cart" class="info__cart__btn cap" value="cart">add to cart</button>
+                                </div>
+                                <div class="info__wish">
+                                    <button type="submit" name="wish" class="info__wish__btn cap" value="wish">wishlist</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </main>
